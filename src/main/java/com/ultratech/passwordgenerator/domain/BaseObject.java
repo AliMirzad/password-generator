@@ -15,7 +15,7 @@ import java.util.Date;
 public class BaseObject {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private long id;
 
     @Column(name = "register_date", nullable = false)
     private Date registerDate;
